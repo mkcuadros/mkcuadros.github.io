@@ -1,15 +1,111 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="creative.css">
+</head>
+<body>
 
-<style>
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-</style>
-	<body>
-	    <h1> Test Header </h1>
-	    <p>This site is currently under development. </p>
-	    <p>This is website is hosted in github using github pages and html </p>
-    	<embed src=”CuadrosKMichelle_Resume.pdf#page=2" type=”application/pdf” width=”100%” height=”100%”>
-	</body>
-<html>
+<div class="header">
+	<h1>Michelle Cuadros</h1>
+	<h4>A Personal Portfolio<br><i>(Currently Under Construction)</i></h4><i>learn. love. create</i></p>
+</div>
+
+<div class="topnav">
+	<a href="index.html">Home</a>
+	<a href="projects.html">Projects</a>
+	<a href="publications.html">Publications</a>
+	<a href="contact.html" style="float:right">Contact</a>
+</div>
+
+
+<div class="row">
+  	<div class="column">
+		<div class="card">
+		    <h2>Software + ML </h2>
+		</div>
+
+  		<div class="card">
+			<h2>Pure the Journey Android App (Early Access) Released to Google Play Store</h2>
+			<h4>January 1, 2021</h4>
+			<a href="https://play.google.com/store/apps/details?id=com.gjam.ptj&hl=en_US&gl=US">Available Here (only available to people on the beta tester list)</a>
+			<p>This is an app version of the book, Pure The Journey, by Dave and Robin Weidner.</p>
+			<img src="projects/ptj.gif" width="50%" height="100%" class="center"></img>
+    	</div>
+
+  		<div class="card">
+			<h2>Latent Factor Models for Movie Recommender Systems</h2>
+			<h4>December 16, 2016</h4>
+			<p>Developed a lab that utilizes the MovieLens dataset (100,000 ratings from 1000 users on 1700 movies) to train two different movie recommender system models. The lab focuses on introducing collaborative filtering, as well as implementing and comparing two methods for model based-collaborative filtering, SGD and ALS.</p>		
+		    <iframe src="projects/ECE532 - Recommender System Report.pdf" #toolbar=0&navpanes=0 width="100%" height="200px"></iframe>		
+    	</div>
+    	<div class="card">
+    		<h2>3D Data Visualizations</h2>
+			<h4>2017-2021</h4>
+			<p>Many projects developing 3D data visualizations and studying patterns in the data</p>
+
+    	</div>
+
+	</div>
+  	<div class="column">
+  		<div class="card">
+		    <h2>Mechatronics + IoT </h2>
+		</div>
+    	<div class="card">
+			<h2>Python-based Robotic Dynamometer</h2>
+			<h4>2017-2021</h4>
+			<p> Automated a couple of robotic "dynos" to manipulate equipment and measure torque; complete with custom GUI</p>
+    	</div>
+    	<div class="card">
+    		<h2>Resistance Engine</h2>
+			<h4>2018</h4>
+			<p>Designed stepper motor-based resistance control system for cardio fitness equipment</p>
+
+    	</div>
+
+    	<div class="card">
+    		<h2>IoT Rep Detector</h2>
+			<h4>2019</h4>
+			<p>Sensor-based slam ball wall rep quantification and detection with local display & wireless leaderboard (using MQTT)</p>
+
+    	</div>
+
+    	<div class="card">
+			<h2>Mind-Controlled Lights</h2>
+			<h4>May 2016</h4>
+			<p>Used an EEG sensor (NeuroSky MindWave Mobile) to control Philips Hue light bulbs.</p>
+			<img src="projects/mind_controlled_lights.png" width="100%"></img>
+			<p><b>How it Works?</b><br>The brain emits electrical impulses (voltage spikes) when neurons fire. EEG sensor reads voltage levels in time domain, transforming them to frequency domain. The NeuroSky algorithm calculates attention and meditation scores on a scale. The Yun is configured to read and parse attention and meditation scores from the MindWave Mobile and also to control the Hue.</p>
+
+    	</div>
+
+  	</div>
+  	<div class="column">
+  		<div class="card">
+		    <h2>Hardware </h2>
+		</div>
+    	<div class="card">
+			<h2>ECG Shield for Arduino to Measure Heart Rate</h2>
+			<h4>December 2015</h4>
+			<p>Used EAGLE to design a portable, low-cost electrocardiogram (ECG) shield for the Arduino. Comes complete with a LabVIEW interface to view a person's heart rate in real time. </p>
+			<img src="projects/ecg_img.png" width="50%" class="center"></img>
+
+    	</div>
+
+    	<div class="card">
+			<h2>Accelerometer-based Angle Sensor</h2>
+			<h4>April 2020</h4>
+			<p>Utilized two accelerometer ICs to do the hardware design/PCB layout for an angle sensor.</p>
+
+    	</div>
+	</div>
+</div>
+
+<div class="footer">
+	<p><i>This is website was developed by Michelle Cuadros and is hosted in Github using Github Pages</i> </p>	
+</div>
+
+</body>
+</html>
